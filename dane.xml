@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="wizytowka.xsl" ?>
+<company>
+  <metadata>
+    <name>Cydr Sadowski</name>
+    <fname>Krystian</fname>
+    <sname>Sadowski</sname>
+    <telpv>881 321 921</telpv>
+  </metadata>
+  <contact>
+      <tel>000 222 555</tel>
+      <mail>krystek23s@gmail.com</mail>
+      <city>Gorzów</city>
+      <code>66-400</code>
+      <street>Dąbrowskiego</street>
+      <nr>36</nr>
+  </contact>
+  <offerts>
+    <offert>
+      <name>Sprzedaż cydru</name>
+      <price>20 zł</price>
+    </offert>
+    <offert>
+      <name>Katering</name>
+      <price>od 50zł</price>
+    </offert>
+    <offert>
+      <name>Specialny cydr na zamówienie</name>
+      <price>100 zł</price>
+    </offert>
+  </offerts>
+  <geolocation>
+    <width>52.73366</width>
+    <length>15.23853</length>
+  </geolocation>
+</company>

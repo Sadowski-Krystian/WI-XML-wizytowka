@@ -1,0 +1,50 @@
+#przod{
+    padding: 5px;
+    margin: 3px;
+    width: 9cm;
+    height: 5cm;
+    background-color: gray;
+    display: grid;
+    grid-template-areas: 
+        "name logo"
+        "adress puste"
+        "kontakt logo2"
+    ;
+    
+}
+#pname{
+    grid-area: name;
+}
+#adress{
+    grid-area: adress;
+}
+#kontakt{
+    grid-area: kontakt;
+}
+#cydr{
+    height: 4cm;
+    grid-row: span 3;
+}
+#tyl{
+    padding: 5px;
+    margin: 3px;
+    width: 9cm;
+    height: 5cm;
+    background-color: gray;
+    display: grid;
+    grid-template-areas: 
+        "owner null"
+        "telpv puste"
+    ;
+}
+#owner{
+    grid-area: owner;
+}
+#list{
+    grid-area: telpv;
+}
+#logo{
+    height: 4cm;
+    grid-column: 2;
+    grid-row: span 2;
+}

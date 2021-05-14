@@ -1,0 +1,46 @@
+
+#strona{
+    background-color: #E9D8AD;
+    display: grid;
+    grid-template-areas: 
+        "nav nav nav"
+        "metadata center offerts"
+    ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 5px;
+    grid-area: nav;
+}
+#navlogo{
+    height: 2cm;
+}
+#metadata{
+    padding: 5px;
+    grid-area: metadata;
+}
+#offerts{
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    grid-area: offerts;
+}
+#offerts-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#offerts-item h3{
+    margin: 0px;
+}
+#offerts-item ul{
+    margin: 0px;
+}
+#map{
+    grid-area: center;
+    display: flex;
+    justify-content: center;
+}
